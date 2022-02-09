@@ -87,7 +87,7 @@ Goes to these components:
 
 - Game
   - State
-    - `board = [null,null,null,null,null,null,null,null,null] <- "X", "O", or null`
+    - `State = [null,null,null,null,null,null,null,null,null] <- "X", "O", or null`
     - `x's turn = true | false`
   - Behaviour
     - make a move
