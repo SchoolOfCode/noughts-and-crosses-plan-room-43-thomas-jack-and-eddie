@@ -109,6 +109,14 @@ Goes to these components:
     - Squares - 1 for each item in board, arranged into a grid
 - Square
   - Props
-    - make a move
+    - make a move(onClick)
+    - value is passed into a prop (what to put in the square)
   - Render
     - `"", X, or O`
+
+
+### Further plan
+
+We need to take in player move as they select a square
+Using onClick from the player The square needs to store the value handed to a prop that 
+gets passed to the Square Function
