@@ -14,10 +14,18 @@
     "Bottom-Left Bottom-Middle Bottom-Right";
 }
 .container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: solid;
   border-color: black;
   border-width: 5px;
   font-size: 80px;
+  color: red;
+  text-align: center;
+}
+.container div[value*="O"] {
+  color: blue;
 }
 .Top-Left {
   grid-area: Top-Left;
