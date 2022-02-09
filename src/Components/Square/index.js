@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Square () {
+function Square ({divName, value, onClick}) {
     return (
-        <div>
-            
+        <div className={`${divName}`} value={value} onClick={onClick}>
+            {value}
         </div>
     )
 }
