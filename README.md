@@ -114,9 +114,8 @@ Goes to these components:
   - Render
     - `"", X, or O`
 
-
 ### Further plan
 
 We need to take in player move as they select a square
-Using onClick from the player The square needs to store the value handed to a prop that 
+Using onClick from the player The square needs to store the value handed to a prop that
 gets passed to the Square Function

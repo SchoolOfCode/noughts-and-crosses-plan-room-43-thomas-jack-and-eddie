@@ -1,30 +1,48 @@
 .container {
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr; 
-    gap: 0px 0px; 
-    border:solid;
-    border-color: black;
-    border-width: 5px;
-    min-width: 500px;
-    min-height: 500px;
-    grid-template-areas: 
-      "Top-Left Top-Middle Top-Right"
-      "Middle-Left Centre Middle-right"
-      "Bottom-Left Bottom-Middle Bottom-Right"; 
-  }
-  .container div{
-    border:solid;
-    border-color: black;
-    border-width: 5px;
-    
-  }
-  .Top-Left { grid-area: Top-Left; }
-  .Top-Middle { grid-area: Top-Middle; }
-  .Top-Right { grid-area: Top-Right; }
-  .Middle-Left { grid-area: Middle-Left; }
-  .Centre { grid-area: Centre; }
-  .Middle-right { grid-area: Middle-right; }
-  .Bottom-Left { grid-area: Bottom-Left; }
-  .Bottom-Middle { grid-area: Bottom-Middle; }
-  .Bottom-Right { grid-area: Bottom-Right; }
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  border: solid;
+  border-color: black;
+  border-width: 5px;
+  min-width: 500px;
+  min-height: 500px;
+  grid-template-areas:
+    "Top-Left Top-Middle Top-Right"
+    "Middle-Left Centre Middle-right"
+    "Bottom-Left Bottom-Middle Bottom-Right";
+}
+.container div {
+  border: solid;
+  border-color: black;
+  border-width: 5px;
+  font-size: 80px;
+}
+.Top-Left {
+  grid-area: Top-Left;
+}
+.Top-Middle {
+  grid-area: Top-Middle;
+}
+.Top-Right {
+  grid-area: Top-Right;
+}
+.Middle-Left {
+  grid-area: Middle-Left;
+}
+.Centre {
+  grid-area: Centre;
+}
+.Middle-right {
+  grid-area: Middle-right;
+}
+.Bottom-Left {
+  grid-area: Bottom-Left;
+}
+.Bottom-Middle {
+  grid-area: Bottom-Middle;
+}
+.Bottom-Right {
+  grid-area: Bottom-Right;
+}
